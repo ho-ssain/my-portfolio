@@ -57,7 +57,7 @@ export const Data = () => {
       <h3 className="home-subtitle">Software Engineer (Front-End)</h3>
 
       <p className="home-description">
-        Hi there! I&amps;m a front-end software engineer, skilled in JavaScript,
+        Hi there! I&apos;m a front-end software engineer, skilled in JavaScript,
         TypeScript, React, Tailwind CSS, Bootstrap, and Node.js.
       </p>
 
