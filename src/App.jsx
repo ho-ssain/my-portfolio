@@ -3,6 +3,10 @@ import "./App.css";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
+import Services from "./components/services/Services";
+import Education from "./components/education/Education";
+import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -13,6 +17,10 @@ function App() {
         <Home />
         <About />
         <Skills />
+        <Education />
+        <Portfolio />
+        <Services />
+        <Contact />
       </main>
     </>
   );
