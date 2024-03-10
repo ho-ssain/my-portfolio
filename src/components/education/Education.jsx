@@ -34,8 +34,7 @@ const Education = () => {
             }
             onClick={() => toggleTab(2)}
           >
-            <i className="uil uil-briefcase education-icon"></i>
-            Certification
+            <i className="uil uil-briefcase education-icon"></i> Certification
           </div>
         </div>
 
