@@ -7,6 +7,8 @@ import Services from "./components/services/Services";
 import Education from "./components/education/Education";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
+import ScrollUp from "./components/scrollUp/ScrollUp";
 
 function App() {
   return (
@@ -22,6 +24,9 @@ function App() {
         <Services />
         <Contact />
       </main>
+
+      <Footer />
+      <ScrollUp />
     </>
   );
 }

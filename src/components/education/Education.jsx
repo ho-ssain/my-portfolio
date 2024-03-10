@@ -56,7 +56,7 @@ const Education = () => {
                   American International University Bangladesh
                 </span>
                 <div className="education-calender">
-                  <i className="uil uil-calendar-alt"></i> 2019-2023
+                  <i className="uil uil-location-point"></i> Dhaka, bangladesh.
                 </div>
               </div>
 
@@ -80,7 +80,8 @@ const Education = () => {
                   Comilla Govt. College
                 </span>
                 <div className="education-calender">
-                  <i className="uil uil-calendar-alt"></i> 2015-2017
+                  <i className="uil uil-location-point"></i> Comilla,
+                  Bangladesh.
                 </div>
               </div>
             </div>
@@ -99,7 +100,8 @@ const Education = () => {
                   Comilla Modern High School
                 </span>
                 <div className="education-calender">
-                  <i className="uil uil-calendar-alt"></i> 2012-2014
+                  <i className="uil uil-location-point"></i> Comilla,
+                  Bangladesh.
                 </div>
               </div>
             </div>
