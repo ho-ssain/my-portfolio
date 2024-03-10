@@ -101,3 +101,44 @@
 .contact-form-area {
   height: 11rem;
 }
+
+.contact-form-area textarea {
+  resize: none;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .contact-container {
+    column-gap: 3rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .contact-info {
+    justify-content: center;
+  }
+
+  .contact-form {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+  .contact-form {
+    width: 100%;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+}

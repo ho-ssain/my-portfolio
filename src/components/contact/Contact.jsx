@@ -1,6 +1,24 @@
 import "./Contact.css";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      import.meta.env.VITE_EMAIL_SERVICE_ID,
+      import.meta.env.VITE_EMAIL_TEMPLATE_ID,
+      form.current,
+      {
+        publicKey: import.meta.env.VITE_EMAIL_PUBLIC_KEY,
+      }
+    );
+    e.target.reset();
+  };
+
   return (
     <section className="section contact" id="contact">
       <h2 className="section-title">Get in touch</h2>
@@ -55,7 +73,7 @@ const Contact = () => {
         <div className="contact-content">
           <h3 className="contact-title">Write me your projects</h3>
 
-          <form action="" className="contact-form">
+          <form className="contact-form" ref={form} onSubmit={sendEmail}>
             <div className="contact-form-div">
               <label htmlFor="name" className="contact-form-tag">
                 Name
