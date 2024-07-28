@@ -54,10 +54,10 @@ export const Data = () => {
         </svg>
       </h1>
 
-      <h3 className="home-subtitle">Software Engineer (Front-End)</h3>
+      <h3 className="home-subtitle">Software Engineer🧑‍💻</h3>
 
       <p className="home-description">
-        Hi there! I&apos;m a front-end software engineer, skilled in JavaScript,
+        Hi there! I&apos;m a Software engineer, skilled in JavaScript,
         TypeScript, React, Tailwind CSS, Bootstrap, and Node.js.
       </p>
 

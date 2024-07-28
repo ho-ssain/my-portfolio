@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Header.css";
+import Logo from "../Logo/Logo";
 
 const Header = () => {
   /*=============== Change background Header ===============*/
@@ -19,7 +20,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav-logo">
-          Hossain
+          <Logo />
         </a>
 
         <div className={toggle ? "nav-menu show-menu" : "nav-menu"}>

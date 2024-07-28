@@ -1,0 +1,46 @@
+#logo {
+  color: var(--theme-color);
+  height: 80%;
+  width: 80%;
+  fill: none;
+}
+
+@keyframes textBounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes strokeDash {
+  0% {
+    stroke-dasharray: 0, 200;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dasharray: 200, 0;
+    stroke-dashoffset: 0;
+  }
+}
+
+.animated-text {
+  animation: textBounce 2s ease-in-out forwards,
+    textScale 2s ease-in-out 2s forwards;
+  fill: url(#blueGradient); /* Apply gradient fill */
+  font-size: 30px; /* Adjust size as needed */
+  font-weight: bold; /* Adjust weight as needed */
+}
+
+.animated-border {
+  animation: strokeDash 3s ease-in-out forwards;
+  stroke-dasharray: 200, 0;
+}
