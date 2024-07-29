@@ -57,8 +57,10 @@ export const Data = () => {
       <h3 className="home-subtitle">Software Engineer🧑‍💻</h3>
 
       <p className="home-description">
-        Hi there! I&apos;m a Software engineer, skilled in JavaScript,
-        TypeScript, React, Tailwind CSS, Bootstrap, and Node.js.
+        Hi there! I&apos;m{" "}
+        <span style={{ fontWeight: "bold" }}>➖ Hossain</span>, a Software
+        engineer, skilled in JavaScript, TypeScript, React, Tailwind CSS,
+        Bootstrap, and Node.js.
       </p>
 
       <a href="#contact" className="button button-flex">
